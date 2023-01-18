@@ -93,11 +93,143 @@ section.banner {
     }
 }
 
-footer {
-    font-size: 0.875rem;
-    background-color: #221f1f;
+section.about {
+    background: imgUrl('about.png') right center;
+    background-size: contain;
+    padding: 125px 0;
+}
 
-    @include media-breakpoint-down(sm) {
-        font-size: 0.61rem;
+section.map {
+    .map-description {
+        background: $primary;
+        color: $white;
+        padding: 185px 99px;
+    }
+}
+
+section.why-us {
+    background: $dark;
+    padding: 85px 0 75px;
+
+    .reasons {
+        padding: 37px 63px;
+        color: $white;
+        text-align: center;
+        line-height: 1;
+        font-weight: 700;
+        background: #2D3335;
+        min-height: 121px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+section.form2 {
+    padding: 136px 0;
+
+    form.form {
+        
+        .main {
+            box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.15);
+            padding: 59px 45px;
+            width: 100%;
+            background: $white;
+
+            .input-group {
+                border-radius: 2px;
+                overflow: hidden;
+                background: $white;
+                border: 1px solid #EBEEEF;
+            }
+
+            .input-group-text {
+                border: 0;
+                border-radius: 0;
+                background: $white;
+                padding: 0 3px 0 18px;
+                height: 100%;
+            }
+
+            input.form-control {
+                color: $dark;
+                font-size: 18px;
+                min-height: 50px;
+
+                @include media-breakpoint-up(lg) {
+                    min-height: 70px;
+                }
+
+                &:focus {
+                    box-shadow: none;
+                    outline: none;
+                }
+
+                &::placeholder {
+                    color: #BDC1C2;
+                }
+            }
+        }
+
+        .submission {
+            background: $dark-grey;
+            padding: 45px;
+
+            button {
+                height: 70px;
+            }
+        }
+    }
+}
+
+section.services {
+    padding: 116px 0;
+
+    .service {
+        color: $white;
+        text-align: center;
+
+        .main {
+            padding: 37px 24px 28px;
+        }
+    }
+}
+
+footer {
+    background-color: #1B2224;
+
+    .footer-top {
+        padding: 33px 0;
+        border-bottom: 1px solid $dark;
+    }
+
+    .footer-links {
+        padding: 34px 0;
+    }
+
+    .footer-links, .footer-accreditation {
+        ul.quick-links {
+            list-style: none;
+            padding-inline-start: 0;
+
+            li, li a {
+                color: $grey;
+                font-size: 1rem;
+                text-decoration: none;
+                line-height: 2;
+            }
+        }
+    }
+
+    .footer-accreditation {
+        padding-bottom: 69px;
+    }
+
+    .footer-bottom {
+        background: #0B0F10;
+        padding: 18px 0;
+        font-size: 14px;
+        color: $grey;
     }
 }
