@@ -136,7 +136,7 @@
         <div>Get Free Quote1</div>
         <div>Get Free Quote2</div>
     </div>
-    <form class="form" id="form" action="./src/form" method="POST">
+    <form class="form" id="form" action="./src/free-quote-form" method="POST">
         <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
         <div class="title fs-36">
             <?= renderImg('hanging-mrsplash.png', 'logo', 'form-mrsplash-logo') ?>
@@ -218,7 +218,7 @@
                 </div>
             </div>
             <div class="col-xl-4">
-                <form class="form" id="form" action="./src/form" method="POST">
+                <form class="form" id="form" action="./src/free-quote-form" method="POST">
                     <input type="hidden" name="token" id="recaptchaResponse2" class="recaptchaResponse">
                     <div class="title fs-36">
                         <?= renderImg('hanging-mrsplash.png', 'logo', 'form-mrsplash-logo') ?>
@@ -633,18 +633,18 @@
                         <label class="fs-18 fw-400 text-dark pb-2 pb-md-3" for="budget">Do You Have Budget?</label>
                         <div class="row align-items-center gy-3">
                             <div class="col-auto">
-                                <div class="form-check form-check-inline">
+                                <div class="form-check form-check-inline checkBudget">
                                     <input class="form-check-input" type="radio" name="budget" id="budget1" value="Yes">
                                     <label class="form-check-label" for="budget1">Yes</label>
                                 </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="budget" id="budget2" value="No">
+                                <div class="form-check form-check-inline checkBudget">
+                                    <input class="form-check-input" type="radio" name="budget" id="budget2" value="No" checked>
                                     <label class="form-check-label" for="budget2">No</label>
                                 </div>
                             </div>
                             <div class="col-md">
                                 <div class="input-group">
-                                    <input class="form-control border-0 rounded-0 bg-white" type="text" placeholder="Budget Amount" name="budgetAmount" required>
+                                    <input id="budgetAmount" class="form-control border-0 rounded-0 bg-white" type="text" placeholder="Budget Amount" name="budgetAmount" disabled required>
                                 </div>
                             </div>
                         </div>

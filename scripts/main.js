@@ -70,3 +70,14 @@ function fileUploaded(uploadName, labelId) {
         $(`#${labelId}`).html(fileName.substring(0, 50));
     }
 }
+
+$(".checkBudget").on("change", function (e) {
+    e.preventDefault();
+    if ($("#budget1").is(":checked")) {
+        $("#budgetAmount").removeAttr("disabled");
+    }
+    else if ($("#budget2").is(":checked")) {
+        $("#budgetAmount").val("");
+        $("#budgetAmount").attr("disabled", true);
+    }
+});
