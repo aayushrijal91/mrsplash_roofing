@@ -144,22 +144,33 @@ section.banner {
 }
 
 section.banner {
-    background: $dark imgUrl('banner.png') right center;
-    background-size: contain;
+    background: $dark;
     padding: 119px 0 109px;
-
+    
     @include media-breakpoint-down(xxl) {
         background-position-x: 150%;
+    }
+    
+    @include media-breakpoint-up(lg) {
+        background: $dark imgUrl('banner.png') right center;
+        background-size: contain;
     }
 }
 
 section.about {
-    background: imgUrl('about.png') right center;
-    background-size: contain;
     padding: 125px 0;
+    
+    @include media-breakpoint-up(lg) {
+        background: imgUrl('about.png') right center;
+        background-size: contain;
+    }
 }
 
 section.map {
+    iframe {
+        min-height: 500px;
+    }
+    
     .map-description {
         background: $primary;
         color: $white;

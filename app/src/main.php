@@ -5,7 +5,8 @@
                 <div class="col-auto fs-14 text-white d-flex align-items-center">
                     <div class="vibing-circle">
                         <div class="pulse pulsating-circle"></div>
-                    </div> <div class="ps-4"><span class="current-time"></span> We are currently open!</div>
+                    </div>
+                    <div class="ps-4"><span class="current-time"></span> We are currently open!</div>
                 </div>
                 <div class="col-auto">
                     <a href="tel:<?= $phone_number ?>" class="text-white text-decoration-none fs-14 fw-500 p-0"><?= $phone_number ?></a>
@@ -14,7 +15,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="row justify-content-center justify-content-md-between align-items-center py-3 py-md-0">
+        <div class="row justify-content-center justify-content-lg-between align-items-center py-3 py-md-0 gy-5 gx-md-5 gx-lg-3">
             <div class="col-auto">
                 <a href="./">
                     <?= renderImg("logo.png", "logo") ?>
@@ -192,8 +193,8 @@
 
 <section class="banner d-none d-md-block">
     <div class="container">
-        <div class="row justify-content-between">
-            <div class="col-6 col-xxl-5">
+        <div class="row justify-content-between gy-5">
+            <div class="col-lg-6 col-xxl-5">
                 <h1 class="fs-72 text-white fw-700 lh-1">Mr Splash Roofing Sydney</h1>
                 <div class="text-white fs-24 fw-400 py-4">Offering the best roofing service in Sydney</div>
                 <div class="row pt-4">
@@ -277,20 +278,20 @@
 
 <section class="bg-primary text-center text-white fs-24 fw-700 pt-5 pb-6 d-none d-md-block">
     <div class="container">
-        <div class="row">
-            <div class="col-3">
+        <div class="row gy-4">
+            <div class="col-6 col-lg-3">
                 <?= renderImg('roofing.png', 'lib') ?>
                 <div>Plumbing & Metal Roofing</div>
             </div>
-            <div class="col-3">
+            <div class="col-6 col-lg-3">
                 <?= renderImg('reroofing.png', 'lib') ?>
                 <div>Reroofing</div>
             </div>
-            <div class="col-3">
+            <div class="col-6 col-lg-3">
                 <?= renderImg('restoration.png', 'lib') ?>
                 <div>Cleaning & Restoration</div>
             </div>
-            <div class="col-3">
+            <div class="col-6 col-lg-3">
                 <?= renderImg('roof-repairs.png', 'lib') ?>
                 <div>Roof Repairs</div>
             </div>
@@ -300,8 +301,8 @@
 
 <section class="about d-none d-md-block">
     <div class="container">
-        <div class="row">
-            <div class="col-6">
+        <div class="row align-items-center gy-5">
+            <div class="col-lg-6">
                 <div class="fs-72 lh-1 fw-700 text-primary">Is it time for a roof renovation?</div>
                 <div class="py-5 text-dark fs-36 fw-800 lh-1">
                     Yes! We are the right team for your roof renovation project!
@@ -328,6 +329,12 @@
                     </div>
                 </div>
             </div>
+            <div class="col-12 d-lg-none">
+                <div class="row">
+                    <div class="col-6"><?= renderImg('service_cta.jpg', 'lib', 'w-100') ?></div>
+                    <div class="col-6"><?= renderImg('google_cta.jpg', 'lib', 'w-100') ?></div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -335,8 +342,8 @@
 <section class="map d-none d-md-block">
     <div class="container-fluid px-0">
         <div class="row gx-0">
-            <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d424141.46927053836!2d150.9319747!3d-33.84829!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb76d7432f2895b1a!2sMr%20Splash%20Plumbing!5e0!3m2!1sen!2sau!4v1634777900494!5m2!1sen!2sau" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
-            <div class="col-md-6">
+            <div class="col-lg-6"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d424141.46927053836!2d150.9319747!3d-33.84829!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb76d7432f2895b1a!2sMr%20Splash%20Plumbing!5e0!3m2!1sen!2sau!4v1634777900494!5m2!1sen!2sau" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+            <div class="col-lg-6">
                 <div class="map-description">
                     <div class="fs-72 fw-700 lh-1 pb-3">Mr Splash Roof Renovations Sydney:</div>
                     <div class="fs-18 lh-1_67 text-secondary pt-4">We can renovate and expand on any roof. Our team will walk you through the project and what your imagination of your new roof will look like. Advice and guidance is the most valuable asset when it comes to going through any type of roof renovation (Suburb) and we are a company that understands this. So if you’re in the market and looking for the best Bathroom Renovation company then let us demonstrate our process.</div>
@@ -349,8 +356,8 @@
 <section class="services">
     <div class="container">
         <div class="fs-72 fw-700 text-primary text-center lh-1 pb-5 d-none d-md-block">Mr Splash Roofing Services</div>
-        <div class="row pt-2 gy-3">
-            <div class="col-md-4">
+        <div class="row pt-2 gy-3 justify-content-center">
+            <div class="col-md-7 col-lg-4">
                 <div class="service bg-secondary">
                     <div class="main">
                         <div class="fs-36 lh-1 fw-700">Reroofing &amp;<br> New Roofs</div>
@@ -359,7 +366,7 @@
                     <?= renderImg('service-1.png', 'lib', 'w-100') ?>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                 <div class="service bg-primary">
                     <div class="main">
                         <div class="fs-36 lh-1 fw-700">Roof Repair &amp;<br> Leak Detection</div>
@@ -368,7 +375,7 @@
                     <?= renderImg('service-2.png', 'lib', 'w-100') ?>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                 <div class="service bg-tertiary">
                     <div class="main">
                         <div class="fs-36 lh-1 fw-700">Roof Cleaning &amp;<br> Restoration</div>
@@ -385,9 +392,9 @@
     <div class="container">
         <div class="text-white fs-72 lh-1 fw-700 text-center">WHY Should I use<br> Mr Splash <span class="text-primary">Roofing Sydney?</span></div>
         <div class="text-grey fs-18 text-center py-5 d-none d-md-block">Other than the list below, let us explain why the Roof Renovation (Suburb) is were it is today since 1990 we have seen an influx quick & cheap style workmanship by contractor style companies that promise the world and provide you a Roof Renovation that looks great for the first 3 months, this is because these companies and contractors are not Licensed Roofers, they do not hold pride & workmanship at a high level, like how we do at Mr Splash Roofing, tilling is not the essential component to a Roof Renovation it's what lies below the TILE, Waterproofing last when a Roofer does it, Roofs don’t leak when a Roofer does it.</div>
-        <?= renderImg('why-us.jpg', 'lib', 'w-100 d-md-none py-4') ?>
+        <?= renderImg('why-us.jpg', 'lib', 'w-100 d-lg-none py-4') ?>
         <div class="row fs-24 align-items-center">
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                 <div class="row gy-4">
                     <div class="col-12">
                         <div class="reasons">
@@ -417,8 +424,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 d-none d-md-block"><?= renderImg('why-us.jpg', 'lib', 'h-100') ?></div>
-            <div class="col-md-4">
+            <div class="col-md-4 d-none d-lg-block"><?= renderImg('why-us.jpg', 'lib', 'h-100') ?></div>
+            <div class="col-md-6 col-lg-4">
                 <div class="row gy-4">
                     <div class="col-12 pt-4 pt-md-0">
                         <div class="reasons">
@@ -735,7 +742,7 @@
                                 Privacy & Security Policy</span> All information provided will be kept 100% confidential & secure
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-lg-3">
                         <button type="submit" class="btn w-100 btn-tertiary rounded-2 text-white py-3 px-md-4 fw-700 fw-600">
                             Submit Booking
                         </button>
@@ -770,15 +777,15 @@
     </div>
     <div class="footer-top">
         <div class="container">
-            <div class="row justify-content-center justify-content-md-between gy-4">
+            <div class="row justify-content-center justify-content-lg-between gy-4">
                 <div class="col-auto">
                     <?= renderImg('footer-logo.png', 'logo') ?>
                 </div>
                 <div class="col-auto">
                     <div class="row gy-3 gx-3">
-                        <div class="col-12 col-md-auto"><?= renderImg('word-of-mouth.png', 'lib', 'w-100') ?></div>
-                        <div class="col-12 col-md-auto"><?= renderImg('google-reviews.png', 'lib', 'w-100') ?></div>
-                        <div class="col-12 col-md-auto"><?= renderImg('youtube-channel.png', 'lib', 'w-100') ?></div>
+                        <div class="col-12 col-md-4 col-lg-auto"><?= renderImg('word-of-mouth.png', 'lib', 'w-100') ?></div>
+                        <div class="col-12 col-md-4 col-lg-auto"><?= renderImg('google-reviews.png', 'lib', 'w-100') ?></div>
+                        <div class="col-12 col-md-4 col-lg-auto"><?= renderImg('youtube-channel.png', 'lib', 'w-100') ?></div>
                     </div>
                 </div>
             </div>
@@ -787,7 +794,7 @@
     <div class="footer-links d-none d-md-block">
         <div class="container">
             <div class="row">
-                <div class="col-lg">
+                <div class="col-md-4 col-lg">
                     <div class="fs-24 fw-700 text-white pb-4">Quick Links</div>
                     <ul class="quick-links">
                         <li><a href="">Home</a></li>
@@ -798,7 +805,7 @@
                         <li><a href="">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="col-lg">
+                <div class="col-md-4 col-lg">
                     <div class="fs-24 fw-700 text-white pb-4">Plumbing</div>
                     <ul class="quick-links">
                         <li><a href="">Broken Pipes Repair</a></li>
@@ -809,7 +816,7 @@
                         <li><a href="" class="text-white">See More</a></li>
                     </ul>
                 </div>
-                <div class="col-lg">
+                <div class="col-md-4 col-lg">
                     <div class="fs-24 fw-700 text-white pb-4">Drains</div>
                     <ul class="quick-links">
                         <li><a href="">Blocked Drains</a></li>
@@ -820,7 +827,7 @@
                         <li><a href="" class="text-white">See More</a></li>
                     </ul>
                 </div>
-                <div class="col-lg">
+                <div class="col-md-4 col-lg">
                     <div class="fs-24 fw-700 text-white pb-4">Hot Water</div>
                     <ul class="quick-links">
                         <li><a href="">Dux Hot Water</a></li>
@@ -831,7 +838,7 @@
                         <li><a href="" class="text-white">See More</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-md-4 col-lg-2">
                     <div class="fs-24 fw-700 text-white pb-4">Support</div>
                     <ul class="quick-links">
                         <li><a href="">Contact Us</a></li>
@@ -846,8 +853,8 @@
     </div>
     <div class="footer-accreditation">
         <div class="container">
-            <div class="row justify-content-between pt-4 pt-md-0">
-                <div class="col-12 col-md-6">
+            <div class="row justify-content-between pt-4 pt-md-0 gy-5">
+                <div class="col-12 col-lg-6">
                     <div class="fs-24 fw-700 text-white pb-4 text-center text-md-start">Accredited Plumbers</div>
                     <div class="row justify-content-between align-items-center" id="accreditation">
                         <div class="col-auto"><?= renderImg('aus-standard.png', 'logo') ?></div>
@@ -858,11 +865,11 @@
                         <div class="col-auto"><?= renderImg('seniors-card.png', 'logo') ?></div>
                     </div>
                 </div>
-                <div class="col-2 d-none d-md-block">
+                <div class="col-md-6 col-lg-2 d-none d-md-block">
                     <div class="fs-24 fw-700 text-white pb-4">Payment Methods</div>
                     <?= renderImg('payments.png', 'lib') ?>
                 </div>
-                <div class="col-2 d-none d-md-block">
+                <div class="col-md-6 col-lg-2 d-none d-md-block">
                     <div class="fs-24 fw-700 text-white pb-4">License No.</div>
                     <ul class="quick-links">
                         <li>300000A</li>
@@ -874,7 +881,7 @@
     </div>
     <div class="footer-bottom">
         <div class="container">
-            <div class="row justify-content-center justify-content-lg-between align-items-center gy-4">
+            <div class="row justify-content-center justify-content-md-between align-items-center gy-4">
                 <div class="col-auto">
                     <div class="row gx-2 gx-md-3 justify-content-center">
                         <div class="col-auto text-center">Copyright <?= date('Y') ?></div>
