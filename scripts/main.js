@@ -52,6 +52,7 @@ $('#accreditation').slick({
     slidesToShow: 6,
     slidesToScroll: 1,
     arrows: false,
+    autoplay: true,
     responsive: [{
         breakpoint: 540,
         settings: {
@@ -60,3 +61,12 @@ $('#accreditation').slick({
         }
     }]
 });
+
+function fileUploaded(uploadName, labelId) {
+    var file = document.getElementById(uploadName);
+    if (file.value != "") {
+        var theSplit = file.value.split('\\');
+        var fileName = theSplit[theSplit.length - 1];
+        $(`#${labelId}`).html(fileName.substring(0, 50));
+    }
+}

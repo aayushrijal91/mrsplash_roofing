@@ -221,6 +221,10 @@ section.form2 {
                 height: 100%;
             }
 
+            input[type="file"] {
+                display: none;
+            }
+
             input.form-control {
                 color: $dark;
                 font-size: 18px;
@@ -237,6 +241,20 @@ section.form2 {
 
                 &::placeholder {
                     color: #BDC1C2;
+                }
+            }
+
+            #uploaded-file-name {
+                border: 1px solid $grey;
+                width: 100%;
+                min-height: 50px;
+                display: flex;
+                align-items: center;
+                padding: 8px 27px;
+                color: $grey;
+
+                @include media-breakpoint-up(lg) {
+                    min-height: 70px;
                 }
             }
         }
@@ -315,6 +333,19 @@ footer {
 
     .footer-accreditation {
         padding-bottom: 69px;
+
+        #accreditation {
+            .slick-track {
+                display: flex;
+                height: inherit;
+                align-items: center;
+            }
+
+            .slick-slide {
+                display: flex;
+                justify-content: center;
+            }
+        }
     }
 
     .footer-bottom {
