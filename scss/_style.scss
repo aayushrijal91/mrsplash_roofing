@@ -151,7 +151,7 @@ section.banner {
         background-position-x: 150%;
     }
     
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(xl) {
         background: $dark imgUrl('banner.png') right center;
         background-size: contain;
     }
@@ -160,7 +160,7 @@ section.banner {
 section.about {
     padding: 125px 0;
     
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(xl) {
         background: imgUrl('about.png') right center;
         background-size: contain;
     }
@@ -170,7 +170,7 @@ section.map {
     iframe {
         min-height: 500px;
     }
-    
+
     .map-description {
         background: $primary;
         color: $white;

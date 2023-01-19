@@ -29,8 +29,8 @@
                 <div class="text-grey fs-14 fw-500 pb-1">Featured in</div>
                 <div><?= renderImg('localnewsplus.png', 'logo') ?></div>
             </div>
-            <div class="col-auto d-none d-md-block">
-                <div class="row justify-content-center justify-content-lg-end align-items-center">
+            <div class="col-auto col-lg-12 col-xl-auto d-none d-md-block">
+                <div class="row justify-content-center justify-content-xl-end align-items-center">
                     <div class="col-auto">
                         <a href="tel:<?= $phone_number ?>" class="btn btn-light rounded-2 fw-600 text-primary py-3 px-3">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -194,7 +194,7 @@
 <section class="banner d-none d-md-block">
     <div class="container">
         <div class="row justify-content-between gy-5">
-            <div class="col-lg-6 col-xxl-5">
+            <div class="col-xl-6 col-xxl-5">
                 <h1 class="fs-72 text-white fw-700 lh-1">Mr Splash Roofing Sydney</h1>
                 <div class="text-white fs-24 fw-400 py-4">Offering the best roofing service in Sydney</div>
                 <div class="row pt-4">
@@ -302,7 +302,7 @@
 <section class="about d-none d-md-block">
     <div class="container">
         <div class="row align-items-center gy-5">
-            <div class="col-lg-6">
+            <div class="col-xl-6">
                 <div class="fs-72 lh-1 fw-700 text-primary">Is it time for a roof renovation?</div>
                 <div class="py-5 text-dark fs-36 fw-800 lh-1">
                     Yes! We are the right team for your roof renovation project!
@@ -329,7 +329,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 d-lg-none">
+            <div class="col-12 d-xl-none">
                 <div class="row">
                     <div class="col-6"><?= renderImg('service_cta.jpg', 'lib', 'w-100') ?></div>
                     <div class="col-6"><?= renderImg('google_cta.jpg', 'lib', 'w-100') ?></div>
@@ -777,7 +777,7 @@
     </div>
     <div class="footer-top">
         <div class="container">
-            <div class="row justify-content-center justify-content-lg-between gy-4">
+            <div class="row justify-content-center justify-content-xl-between gy-4">
                 <div class="col-auto">
                     <?= renderImg('footer-logo.png', 'logo') ?>
                 </div>
@@ -854,7 +854,7 @@
     <div class="footer-accreditation">
         <div class="container">
             <div class="row justify-content-between pt-4 pt-md-0 gy-5">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-xl-6">
                     <div class="fs-24 fw-700 text-white pb-4 text-center text-md-start">Accredited Plumbers</div>
                     <div class="row justify-content-between align-items-center" id="accreditation">
                         <div class="col-auto"><?= renderImg('aus-standard.png', 'logo') ?></div>
@@ -865,11 +865,11 @@
                         <div class="col-auto"><?= renderImg('seniors-card.png', 'logo') ?></div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-2 d-none d-md-block">
+                <div class="col-md-6 col-xl-2 d-none d-md-block">
                     <div class="fs-24 fw-700 text-white pb-4">Payment Methods</div>
                     <?= renderImg('payments.png', 'lib') ?>
                 </div>
-                <div class="col-md-6 col-lg-2 d-none d-md-block">
+                <div class="col-md-6 col-xl-2 d-none d-md-block">
                     <div class="fs-24 fw-700 text-white pb-4">License No.</div>
                     <ul class="quick-links">
                         <li>300000A</li>
