@@ -147,6 +147,10 @@ section.banner {
     background: $dark imgUrl('banner.png') right center;
     background-size: contain;
     padding: 119px 0 109px;
+
+    @include media-breakpoint-down(xxl) {
+        background-position-x: 150%;
+    }
 }
 
 section.about {
@@ -160,6 +164,10 @@ section.map {
         background: $primary;
         color: $white;
         padding: 185px 99px;
+
+        @include media-breakpoint-down(xxl) {
+            padding: 150px 64px;
+        }
     }
 }
 

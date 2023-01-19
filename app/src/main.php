@@ -193,7 +193,7 @@
 <section class="banner d-none d-md-block">
     <div class="container">
         <div class="row justify-content-between">
-            <div class="col-5">
+            <div class="col-6 col-xxl-5">
                 <h1 class="fs-72 text-white fw-700 lh-1">Mr Splash Roofing Sydney</h1>
                 <div class="text-white fs-24 fw-400 py-4">Offering the best roofing service in Sydney</div>
                 <div class="row pt-4">
@@ -216,7 +216,7 @@
                     <div class="col-auto"><?= renderImg('awards.png', 'lib') ?></div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-xl-4">
                 <form class="form" id="form" action="./src/form" method="POST">
                     <input type="hidden" name="token" id="recaptchaResponse2" class="recaptchaResponse">
                     <div class="title fs-36">
@@ -517,7 +517,7 @@
                             <input id="emailAddress" class="form-control border-0 rounded-0 bg-white" type="email" placeholder="Eg: email@example.com" name="email" required>
                         </div>
                     </div>
-                    <div class="col-12 col-xxl-9">
+                    <div class="col-12 col-xl-10 col-xxl-9">
                         <label class="fs-18 fw-400 text-dark pb-2 pb-md-3" for="typeOfRoof">Type of roof:</label>
                         <div class="row">
                             <div class="col-6 col-lg">
@@ -694,7 +694,7 @@
                             <input id="preferredServicingTime" class="form-control border-0 rounded-0 bg-white" type="time" name="preferredServicingTime" required>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 pt-4">
+                    <div class="col-12 col-xl-8 col-xxl-6 pt-4">
                         <label class="fs-18 fw-400 text-dark pb-2 pb-md-3">Please upload a photo of your current roof/issue:</label>
                         <div class="row align-items-center">
                             <div class="col-auto">

@@ -24,7 +24,7 @@ function setOpeningTime() {
 }
 
 setOpeningTime();
-setInterval(() => { setOpeningTime(); }, 1000);
+setInterval(() => { setOpeningTime(); }, 50000);
 
 $(window).on('scroll', () => {
     if ($(this).scrollTop() >= 600) {
