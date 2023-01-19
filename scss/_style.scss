@@ -147,13 +147,13 @@ section.banner {
     background: $dark;
     padding: 119px 0 109px;
     
-    @include media-breakpoint-down(xxl) {
-        background-position-x: 150%;
-    }
-    
     @include media-breakpoint-up(xl) {
         background: $dark imgUrl('banner.png') right center;
         background-size: contain;
+    }
+
+    @include media-breakpoint-down(xxl) {
+        background-position-x: 150%;
     }
 }
 

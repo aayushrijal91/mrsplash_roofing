@@ -308,8 +308,8 @@
                     Yes! We are the right team for your roof renovation project!
                 </div>
                 <div class="fs-18 lh-1_67 text-grey">
-                    <p class="pb-4">Welcome to Roof Renovations (Suburb) by Mr Splash, your Sydney wide Roof Renovation Company (Suburb) & General Plumbing Company (Suburb). We pride ourselves on our eccentric workmanship and company process. We have been established since 2010 and have always been a company with pride and love for our clients.</p>
-                    <p class="pb-4">Roof Renovations(Suburb) have been an in demand service offered by Mr Splash since 2010 with to date over 3600 Bathrooms Renovated. The growth of our renovation division has come via our unparalleled designs and workmanship. We are truly the right company to choose for your next Roof Renovation project. Roof renovations are a highly emotional project that requires a company that not only has the creative capabilities but also the experience to know the latest styles and trends that complete a finished roof.</p>
+                    <p class="pb-4">Welcome to Roof Renovations Sydney by Mr Splash, your Sydney wide Roof Renovation Company Sydney & General Plumbing Company Sydney. We pride ourselves on our eccentric workmanship and company process. We have been established since 2010 and have always been a company with pride and love for our clients.</p>
+                    <p class="pb-4">Roof Renovations Sydney have been an in demand service offered by Mr Splash since 2010 with to date over 3600 Bathrooms Renovated. The growth of our renovation division has come via our unparalleled designs and workmanship. We are truly the right company to choose for your next Roof Renovation project. Roof renovations are a highly emotional project that requires a company that not only has the creative capabilities but also the experience to know the latest styles and trends that complete a finished roof.</p>
                 </div>
                 <div class="row">
                     <div class="col-auto">
@@ -346,7 +346,7 @@
             <div class="col-lg-6">
                 <div class="map-description">
                     <div class="fs-72 fw-700 lh-1 pb-3">Mr Splash Roof Renovations Sydney:</div>
-                    <div class="fs-18 lh-1_67 text-secondary pt-4">We can renovate and expand on any roof. Our team will walk you through the project and what your imagination of your new roof will look like. Advice and guidance is the most valuable asset when it comes to going through any type of roof renovation (Suburb) and we are a company that understands this. So if you’re in the market and looking for the best Bathroom Renovation company then let us demonstrate our process.</div>
+                    <div class="fs-18 lh-1_67 text-secondary pt-4">We can renovate and expand on any roof. Our team will walk you through the project and what your imagination of your new roof will look like. Advice and guidance is the most valuable asset when it comes to going through any type of roof renovation Sydney and we are a company that understands this. So if you’re in the market and looking for the best Bathroom Renovation company then let us demonstrate our process.</div>
                 </div>
             </div>
         </div>
@@ -391,7 +391,7 @@
 <section class="why-us">
     <div class="container">
         <div class="text-white fs-72 lh-1 fw-700 text-center">WHY Should I use<br> Mr Splash <span class="text-primary">Roofing Sydney?</span></div>
-        <div class="text-grey fs-18 text-center py-5 d-none d-md-block">Other than the list below, let us explain why the Roof Renovation (Suburb) is were it is today since 1990 we have seen an influx quick & cheap style workmanship by contractor style companies that promise the world and provide you a Roof Renovation that looks great for the first 3 months, this is because these companies and contractors are not Licensed Roofers, they do not hold pride & workmanship at a high level, like how we do at Mr Splash Roofing, tilling is not the essential component to a Roof Renovation it's what lies below the TILE, Waterproofing last when a Roofer does it, Roofs don’t leak when a Roofer does it.</div>
+        <div class="text-grey fs-18 text-center py-5 d-none d-md-block">Other than the list below, let us explain why the Roof Renovation Sydney is were it is today since 1990 we have seen an influx quick & cheap style workmanship by contractor style companies that promise the world and provide you a Roof Renovation that looks great for the first 3 months, this is because these companies and contractors are not Licensed Roofers, they do not hold pride & workmanship at a high level, like how we do at Mr Splash Roofing, tilling is not the essential component to a Roof Renovation it's what lies below the TILE, Waterproofing last when a Roofer does it, Roofs don’t leak when a Roofer does it.</div>
         <?= renderImg('why-us.jpg', 'lib', 'w-100 d-lg-none py-4') ?>
         <div class="row fs-24 align-items-center">
             <div class="col-md-6 col-lg-4">
