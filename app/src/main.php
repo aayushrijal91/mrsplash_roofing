@@ -42,7 +42,7 @@
                         </a>
                     </div>
                     <div class="col-auto">
-                        <a href="#form" class="btn btn-primary rounded-2 fw-600 text-white py-3 px-3">
+                        <a href="#free-quote" class="btn btn-primary rounded-2 fw-600 text-white py-3 px-3">
                             Get Free Quote
                         </a>
                     </div>
@@ -136,7 +136,7 @@
         <div>Get Free Quote1</div>
         <div>Get Free Quote2</div>
     </div>
-    <form class="form" id="form" action="./src/free-quote-form" method="POST">
+    <form class="form" id="free-quote-mobile" action="./src/free-quote-form" method="POST">
         <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
         <div class="title fs-36">
             <?= renderImg('hanging-mrsplash.png', 'logo', 'form-mrsplash-logo') ?>
@@ -218,7 +218,7 @@
                 </div>
             </div>
             <div class="col-xl-4">
-                <form class="form" id="form" action="./src/free-quote-form" method="POST">
+                <form class="form" id="free-quote" action="./src/free-quote-form" method="POST">
                     <input type="hidden" name="token" id="recaptchaResponse2" class="recaptchaResponse">
                     <div class="title fs-36">
                         <?= renderImg('hanging-mrsplash.png', 'logo', 'form-mrsplash-logo') ?>
@@ -313,7 +313,7 @@
                 </div>
                 <div class="row">
                     <div class="col-auto">
-                        <a href="#form" class="btn btn-tertiary rounded-2 fw-600 text-white py-2 px-6 px-xxl-7">
+                        <a href="#free-quote" class="btn btn-tertiary rounded-2 fw-600 text-white py-2 px-6 px-xxl-7">
                             Get Your Free 60<br> Second Quote Now!
                         </a>
                     </div>
@@ -464,7 +464,7 @@
     <div class="container">
         <?= renderImg('main-form.png', 'lib', 'w-100 d-none d-md-block') ?>
 
-        <form class="form" id="form2" action="./src/form" method="POST" enctype="multipart/form-data">
+        <form class="form" id="form" action="./src/form" method="POST" enctype="multipart/form-data">
             <input type="hidden" name="token" id="recaptchaResponse3" class="recaptchaResponse">
             <div class="main">
                 <div class="fs-72 lh-1 fw-700 text-center pb-5 pb-md-6">Book Your <span class="text-primary text-uppercase">Free</span> Onsite Consultation</div>
@@ -762,7 +762,7 @@
                     <div class="text-white text-center fs-18 fw-300 py-3">Call us on <?= $phone_number ?> or book online & receive $50 OFF!</div>
                 </div>
                 <div class="col-12">
-                    <a href="#form" class="btn btn-primary rounded-2 fw-600 text-white py-3 px-3 fs-18">
+                    <a href="#free-quote-mobile" class="btn btn-primary rounded-2 fw-600 text-white py-3 px-3 fs-18">
                         Get Free Quote
                     </a>
                 </div>
