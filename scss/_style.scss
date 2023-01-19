@@ -5,6 +5,10 @@
 header {
     .header-top-mobile {
         background: $primary;
+
+        .vibing-circle {
+            position: relative;
+        }
     }
 
     @include media-breakpoint-up(md) {

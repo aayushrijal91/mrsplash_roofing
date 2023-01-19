@@ -17,6 +17,8 @@
 				action: 'contact'
 			}).then(function(token) {
 				document.getElementById('recaptchaResponse').value = token;
+				document.getElementById('recaptchaResponse2').value = token;
+				document.getElementById('recaptchaResponse3').value = token;
 			});
 		});
 	</script> -->

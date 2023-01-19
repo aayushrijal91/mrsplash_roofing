@@ -2,8 +2,10 @@
     <div class="header-top-mobile d-md-none">
         <div class="container">
             <div class="row py-2 align-items-center justify-content-between">
-                <div class="col-auto fs-14 text-white">
-                    <span class="current-time"></span> We are currently open!
+                <div class="col-auto fs-14 text-white d-flex align-items-center">
+                    <div class="vibing-circle">
+                        <div class="pulse pulsating-circle"></div>
+                    </div> <div class="ps-4"><span class="current-time"></span> We are currently open!</div>
                 </div>
                 <div class="col-auto">
                     <a href="tel:<?= $phone_number ?>" class="text-white text-decoration-none fs-14 fw-500 p-0"><?= $phone_number ?></a>
@@ -216,7 +218,7 @@
             </div>
             <div class="col-4">
                 <form class="form" id="form" action="./src/form" method="POST">
-                    <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
+                    <input type="hidden" name="token" id="recaptchaResponse2" class="recaptchaResponse">
                     <div class="title fs-36">
                         <?= renderImg('hanging-mrsplash.png', 'logo', 'form-mrsplash-logo') ?>
                         Get Your Quick Quote
@@ -455,8 +457,8 @@
     <div class="container">
         <?= renderImg('main-form.png', 'lib', 'w-100 d-none d-md-block') ?>
 
-        <form class="form" id="form2" action="./src/form" method="POST">
-            <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
+        <form class="form" id="form2" action="./src/form" method="POST" enctype="multipart/form-data">
+            <input type="hidden" name="token" id="recaptchaResponse3" class="recaptchaResponse">
             <div class="main">
                 <div class="fs-72 lh-1 fw-700 text-center pb-5 pb-md-6">Book Your <span class="text-primary text-uppercase">Free</span> Onsite Consultation</div>
                 <div class="row gy-4">
