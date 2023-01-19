@@ -20,7 +20,7 @@ function setOpeningTime() {
     minutes = minutes < 10 ? "0" + minutes : minutes;
     time = hours + ":" + minutes + " " + standard;
 
-    $("#current-time").html(time);
+    $(".current-time").html(time);
 }
 
 setOpeningTime();
@@ -38,4 +38,25 @@ $('#return-to-top').on('click', () => {
     $('body,html').animate({
         scrollTop: 0
     }, 500);
+});
+
+$("#free-quote-cta-mobile").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    prevArrow: "<img class='a-left control-c prev slick-prev' src='assets/images/icons/slick-prev.png'>",
+    nextArrow: "<img class='a-right control-c next slick-next' src='assets/images/icons/slick-next.png'>",
+});
+
+$('#accreditation').slick({
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    arrows: false,
+    responsive: [{
+        breakpoint: 540,
+        settings: {
+            slidesToShow: 2,
+            centerMode: true,
+        }
+    }]
 });
