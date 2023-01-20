@@ -76,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
             '</tr>' .
             '<tr>' .
             '<td>Do you have a budget?</td>' .
-            '<td><b>' . $buudget . '</b></td>' .
+            '<td><b>' . $budget . '</b></td>' .
             '</tr>' .
             '<tr>' .
             '<td>Budget Amount</td>' .

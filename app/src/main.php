@@ -529,7 +529,7 @@
                         <div class="row">
                             <div class="col-6 col-lg">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="typeOfRoof" id="typeOfRoof1" checked>
+                                    <input class="form-check-input" type="radio" name="typeOfRoof" value="Gable" id="typeOfRoof1" checked>
                                     <label class="form-check-label w-100" for="typeOfRoof1">
                                         <div class="d-flex justify-content-md-between">
                                             <div class="order-2 order-md-1 ps-3 ps-md-0">Gable</div>
@@ -538,7 +538,7 @@
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="typeOfRoof" id="typeOfRoof2">
+                                    <input class="form-check-input" type="radio" name="typeOfRoof" value="Shed" id="typeOfRoof2">
                                     <label class="form-check-label w-100" for="typeOfRoof2">
                                         <div class="d-flex justify-content-md-between">
                                             <div class="order-2 order-md-1 ps-3 ps-md-0">Shed</div>
@@ -549,7 +549,7 @@
                             </div>
                             <div class="col-6 col-lg">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="typeOfRoof" id="typeOfRoof3">
+                                    <input class="form-check-input" type="radio" name="typeOfRoof" value="Hip" id="typeOfRoof3">
                                     <label class="form-check-label w-100" for="typeOfRoof3">
                                         <div class="d-flex justify-content-md-between">
                                             <div class="order-2 order-md-1 ps-3 ps-md-0">Hip</div>
@@ -558,7 +558,7 @@
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="typeOfRoof" id="typeOfRoof4">
+                                    <input class="form-check-input" type="radio" name="typeOfRoof" value="Butterfly" id="typeOfRoof4">
                                     <label class="form-check-label w-100" for="typeOfRoof4">
                                         <div class="d-flex justify-content-md-between">
                                             <div class="order-2 order-md-1 ps-3 ps-md-0">Butterfly</div>
@@ -569,7 +569,7 @@
                             </div>
                             <div class="col-6 col-lg">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="typeOfRoof" id="typeOfRoof5">
+                                    <input class="form-check-input" type="radio" name="typeOfRoof" value="Dutch" id="typeOfRoof5">
                                     <label class="form-check-label w-100" for="typeOfRoof5">
                                         <div class="d-flex justify-content-md-between">
                                             <div class="order-2 order-md-1 ps-3 ps-md-0">Dutch</div>
@@ -578,7 +578,7 @@
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="typeOfRoof" id="typeOfRoof6">
+                                    <input class="form-check-input" type="radio" name="typeOfRoof"value="Gambrel" id="typeOfRoof6">
                                     <label class="form-check-label w-100" for="typeOfRoof6">
                                         <div class="d-flex justify-content-md-between">
                                             <div class="order-2 order-md-1 ps-3 ps-md-0">Gambrel</div>
@@ -589,7 +589,7 @@
                             </div>
                             <div class="col-6 col-lg">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="typeOfRoof" id="typeOfRoof7">
+                                    <input class="form-check-input" type="radio" name="typeOfRoof" value="Mansard" id="typeOfRoof7">
                                     <label class="form-check-label w-100" for="typeOfRoof7">
                                         <div class="d-flex justify-content-md-between">
                                             <div class="order-2 order-md-1 ps-3 ps-md-0">Mansard</div>
@@ -598,7 +598,7 @@
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="typeOfRoof" id="typeOfRoof8">
+                                    <input class="form-check-input" type="radio" name="typeOfRoof" value="Dormer" id="typeOfRoof8">
                                     <label class="form-check-label w-100" for="typeOfRoof8">
                                         <div class="d-flex justify-content-md-between">
                                             <div class="order-2 order-md-1 ps-3 ps-md-0">Dormer</div>
@@ -609,7 +609,7 @@
                             </div>
                             <div class="col-6 col-lg">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="typeOfRoof" id="typeOfRoof9">
+                                    <input class="form-check-input" type="radio" name="typeOfRoof" value="Flat" id="typeOfRoof9">
                                     <label class="form-check-label w-100" for="typeOfRoof9">
                                         <div class="d-flex justify-content-md-between">
                                             <div class="order-2 order-md-1 ps-3 ps-md-0">Flat</div>
@@ -618,7 +618,7 @@
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="typeOfRoof" id="typeOfRoof10">
+                                    <input class="form-check-input" type="radio" name="typeOfRoof" value="M Shaped" id="typeOfRoof10">
                                     <label class="form-check-label w-100" for="typeOfRoof10">
                                         <div class="d-flex justify-content-md-between">
                                             <div class="order-2 order-md-1 ps-3 ps-md-0">M Shaped</div>
