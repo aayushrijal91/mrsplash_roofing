@@ -273,10 +273,11 @@ section.form2 {
                 min-height: 50px;
                 display: flex;
                 align-items: center;
-                padding: 8px 27px;
+                padding: 8px;
                 color: $grey;
 
                 @include media-breakpoint-up(lg) {
+                    padding: 8px 27px;
                     min-height: 70px;
                 }
             }
