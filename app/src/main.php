@@ -791,7 +791,7 @@
             </div>
         </div>
     </div>
-    <div class="footer-links d-none d-md-block">
+    <!-- <div class="footer-links d-none d-md-block">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-lg">
@@ -850,7 +850,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="footer-accreditation">
         <div class="container">
             <div class="row justify-content-between pt-4 pt-md-0 gy-5">

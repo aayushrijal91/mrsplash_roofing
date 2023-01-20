@@ -335,10 +335,6 @@ footer {
         border-bottom: 1px solid $dark;
     }
 
-    .footer-links {
-        padding: 34px 0;
-    }
-
     .footer-links,
     .footer-accreditation {
         ul.quick-links {
@@ -356,7 +352,7 @@ footer {
     }
 
     .footer-accreditation {
-        padding-bottom: 69px;
+        padding: 45px 0 69px;
 
         #accreditation {
             .slick-track {
