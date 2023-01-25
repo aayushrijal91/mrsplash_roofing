@@ -76,7 +76,7 @@
                         </svg>
                     </div>
                     <div class="col">
-                        <div class="fs-24 text-white fw-700 lh-1">No Call Out Fees*</div>
+                        <div class="fs-24 text-white fw-700 lh-1">$49* Call Out Fee</div>
                         <div class="text-grey fs-14 lh-1">Terms & conditions may apply</div>
                     </div>
                 </div>
@@ -202,7 +202,7 @@
                         <div class="row align-items-center pb-4">
                             <div class="col-auto"><?= renderImg('no-call.png', 'icons') ?></div>
                             <div class="col">
-                                <div class="fs-36 text-white fw-700 lh-1">No Call Out Fees*</div>
+                                <div class="fs-36 text-white fw-700 lh-1">$49* Call Out Fee</div>
                                 <div class="text-grey fs-18 lh-1">Terms & conditions may apply</div>
                             </div>
                         </div>
